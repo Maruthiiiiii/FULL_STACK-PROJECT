@@ -1,0 +1,274 @@
+{
+  "ADANIENT.NS": {
+    "name": "Adani Enterprises Ltd.",
+    "short_name": "Adani Enterprises",
+    "aliases": [
+      "Adani Enterprises",
+      "Adani Group",
+      "Adani",
+      "ADANIENT",
+      "Gautam Adani"
+    ],
+    "currency": "INR",
+    "market": "NSE (India)",
+    "sector": "Conglomerate / Infrastructure"
+  },
+  "RELIANCE.NS": {
+    "name": "Reliance Industries Ltd.",
+    "short_name": "Reliance Industries",
+    "aliases": [
+      "Reliance Industries",
+      "Reliance",
+      "RIL",
+      "Jio",
+      "Jio Platforms",
+      "Mukesh Ambani"
+    ],
+    "currency": "INR",
+    "market": "NSE (India)",
+    "sector": "Energy / Telecom / Retail"
+  },
+  "YESBANK.NS": {
+    "name": "Yes Bank Ltd.",
+    "short_name": "Yes Bank",
+    "aliases": [
+      "Yes Bank",
+      "YES BANK",
+      "YESBANK",
+      "Rana Kapoor",
+      "Prashant Kumar"
+    ],
+    "currency": "INR",
+    "market": "NSE (India)",
+    "sector": "Banking & Financial Services"
+  },
+  "INFY.NS": {
+    "name": "Infosys Ltd.",
+    "short_name": "Infosys",
+    "aliases": [
+      "Infosys",
+      "INFY",
+      "Infosys Ltd",
+      "Salil Parekh",
+      "Narayana Murthy"
+    ],
+    "currency": "INR",
+    "market": "NSE (India)",
+    "sector": "Information Technology"
+  },
+  "SBIN.NS": {
+    "name": "State Bank of India",
+    "short_name": "SBI",
+    "aliases": [
+      "State Bank of India",
+      "SBI",
+      "SBIN",
+      "State Bank",
+      "Dinesh Khara"
+    ],
+    "currency": "INR",
+    "market": "NSE (India)",
+    "sector": "Public Sector Banking"
+  },
+  "SUZLON.NS": {
+    "name": "Suzlon Energy Ltd.",
+    "short_name": "Suzlon Energy",
+    "aliases": [
+      "Suzlon Energy",
+      "Suzlon",
+      "SUZLON",
+      "Tulsi Tanti",
+      "Girish Tanti"
+    ],
+    "currency": "INR",
+    "market": "NSE (India)",
+    "sector": "Renewable Energy / Wind Power"
+  },
+  "TSLA": {
+    "name": "Tesla, Inc.",
+    "short_name": "Tesla",
+    "aliases": [
+      "Tesla",
+      "TSLA",
+      "Tesla Inc",
+      "Elon Musk",
+      "Cybercab"
+    ],
+    "currency": "USD",
+    "market": "NASDAQ (USA)",
+    "sector": "Electric Vehicles & Clean Energy"
+  },
+  "META": {
+    "name": "Meta Platforms, Inc.",
+    "short_name": "Meta Platforms",
+    "aliases": [
+      "Meta",
+      "Meta Platforms",
+      "Facebook",
+      "Mark Zuckerberg",
+      "Instagram",
+      "WhatsApp"
+    ],
+    "currency": "USD",
+    "market": "NASDAQ (USA)",
+    "sector": "Social Media & Tech"
+  },
+  "NVDA": {
+    "name": "NVIDIA Corporation",
+    "short_name": "Nvidia",
+    "aliases": [
+      "Nvidia",
+      "NVIDIA",
+      "NVDA",
+      "Jensen Huang",
+      "GeForce"
+    ],
+    "currency": "USD",
+    "market": "NASDAQ (USA)",
+    "sector": "Semiconductors & AI Hardware"
+  },
+  "NFLX": {
+    "name": "Netflix, Inc.",
+    "short_name": "Netflix",
+    "aliases": [
+      "Netflix",
+      "NFLX",
+      "Reed Hastings",
+      "Ted Sarandos"
+    ],
+    "currency": "USD",
+    "market": "NASDAQ (USA)",
+    "sector": "Streaming Entertainment"
+  },
+  "TCS.NS": {
+    "name": "Tata Consultancy Services Ltd.",
+    "short_name": "TCS",
+    "aliases": [
+      "Tata Consultancy Services",
+      "TCS",
+      "Tata Consultancy"
+    ],
+    "currency": "INR",
+    "market": "NSE (India)",
+    "sector": "Information Technology"
+  },
+  "HDFCBANK.NS": {
+    "name": "HDFC Bank Ltd.",
+    "short_name": "HDFC Bank",
+    "aliases": [
+      "HDFC Bank",
+      "HDFC",
+      "HDFCBANK"
+    ],
+    "currency": "INR",
+    "market": "NSE (India)",
+    "sector": "Private Sector Banking"
+  },
+  "WIPRO.NS": {
+    "name": "Wipro Ltd.",
+    "short_name": "Wipro",
+    "aliases": [
+      "Wipro",
+      "Wipro Ltd",
+      "Azim Premji"
+    ],
+    "currency": "INR",
+    "market": "NSE (India)",
+    "sector": "Information Technology"
+  },
+  "TATASTEEL.NS": {
+    "name": "Tata Steel Ltd.",
+    "short_name": "Tata Steel",
+    "aliases": [
+      "Tata Steel",
+      "TATASTEEL",
+      "Tata Steel Ltd"
+    ],
+    "currency": "INR",
+    "market": "NSE (India)",
+    "sector": "Steel & Mining"
+  },
+  "VEDL.NS": {
+    "name": "Vedanta Ltd.",
+    "short_name": "Vedanta",
+    "aliases": [
+      "Vedanta",
+      "VEDL",
+      "Vedanta Ltd",
+      "Anil Agarwal"
+    ],
+    "currency": "INR",
+    "market": "NSE (India)",
+    "sector": "Metals & Mining"
+  },
+  "AAPL": {
+    "name": "Apple Inc.",
+    "short_name": "Apple",
+    "aliases": [
+      "Apple",
+      "Apple Inc",
+      "Tim Cook",
+      "AAPL",
+      "iPhone",
+      "MacBook"
+    ],
+    "currency": "USD",
+    "market": "NASDAQ (USA)",
+    "sector": "Consumer Electronics & Tech"
+  },
+  "MSFT": {
+    "name": "Microsoft Corporation",
+    "short_name": "Microsoft",
+    "aliases": [
+      "Microsoft",
+      "Satya Nadella",
+      "MSFT",
+      "Azure",
+      "Windows"
+    ],
+    "currency": "USD",
+    "market": "NASDAQ (USA)",
+    "sector": "Software & Cloud Computing"
+  },
+  "AMZN": {
+    "name": "Amazon.com, Inc.",
+    "short_name": "Amazon",
+    "aliases": [
+      "Amazon",
+      "Jeff Bezos",
+      "Andy Jassy",
+      "AMZN",
+      "AWS"
+    ],
+    "currency": "USD",
+    "market": "NASDAQ (USA)",
+    "sector": "E-Commerce & Cloud Computing"
+  },
+  "GOOGL": {
+    "name": "Alphabet Inc.",
+    "short_name": "Alphabet (Google)",
+    "aliases": [
+      "Alphabet",
+      "Google",
+      "Sundar Pichai",
+      "GOOGL",
+      "GOOG"
+    ],
+    "currency": "USD",
+    "market": "NASDAQ (USA)",
+    "sector": "Internet & Software"
+  },
+  "AMD": {
+    "name": "Advanced Micro Devices, Inc.",
+    "short_name": "AMD",
+    "aliases": [
+      "AMD",
+      "Advanced Micro Devices",
+      "Lisa Su",
+      "Ryzen"
+    ],
+    "currency": "USD",
+    "market": "NASDAQ (USA)",
+    "sector": "Semiconductors"
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "name": "carepulse-fullstack-hospital-system",
+  "version": "1.0.0",
+  "description": "CarePulse - Smart Hospital Management System inspired by Practo",
+  "scripts": {
+    "install:all": "npm --prefix client install && npm --prefix server install",
+    "client": "npm --prefix client run dev",
+    "server": "node server/server.js",
+    "build:client": "npm --prefix client run build",
+    "start": "node server/server.js",
+    "seed": "node server/seed/seeder.js"
+  },
+  "keywords": [
+    "carepulse",
+    "hospital-management",
+    "practo",
+    "digital-prescriptions",
+    "medicine-reminders",
+    "react",
+    "nodejs",
+    "mongodb"
+  ],
+  "author": "CarePulse Team",
+  "license": "ISC"
+}
+
