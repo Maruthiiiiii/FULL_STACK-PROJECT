@@ -135,8 +135,7 @@ export const DEPARTMENTS = [
       'Periodontal Gum Care & Ultrasonic Cleaning'
     ],
     image: 'https://images.unsplash.com/photo-1588776814546-1ffcf47267a5?auto=format&fit=crop&w=600&q=80'
-  }
-];
+  },
 
 {
     id: 'dept-oncology',
@@ -156,7 +155,7 @@ export const DEPARTMENTS = [
     image: 'https://images.unsplash.com/photo-1579684385127-1ef15d508118?auto=format&fit=crop&w=600&q=80'
   }
 
-
+];
 
 export const INITIAL_DOCTORS = [
   {
