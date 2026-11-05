@@ -17,10 +17,21 @@ const appointmentSchema = new mongoose.Schema({
   timeSlot: { type: String, required: true },
   reason: { type: String, required: true },
   status: {
-    type: String,
-    enum: ['Confirmed', 'Completed', 'Cancelled', 'Pending'],
-    default: 'Confirmed'
-  },
+  type: String,
+  enum: [
+    'Confirmed',
+    'Checked In',
+    'In Consultation',
+    'Completed',
+    'Cancelled',
+    'Pending'
+  ],
+  default: 'Confirmed'
+},
+completedAt: {
+  type: Date,
+  default: null
+},
   cancelReason: { type: String, default: '' },
   consultationFee: { type: Number, required: true },
   paymentStatus: { type: String, default: 'Paid' },
