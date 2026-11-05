@@ -80,20 +80,48 @@ export const cancelAppointment = async (req, res) => {
 export const updateAppointmentStatus = async (req, res) => {
   try {
     const { status, notes } = req.body;
-    const updateData = { status };
-    if (notes) updateData.notes = notes;
+
+    const allowedStatuses = [
+      'Confirmed',
+      'Checked In',
+      'In Consultation',
+      'Completed',
+      'Cancelled',
+      'Pending'
+    ];
+
+    if (!allowedStatuses.includes(status)) {
+      return res.status(400).json({
+        message: 'Invalid appointment status'
+      });
+    }
+
+    const updateData = {
+      status,
+      completedAt: status === 'Completed' ? new Date() : null
+    };
+
+    if (notes !== undefined) {
+      updateData.notes = notes;
+    }
 
     const appointment = await Appointment.findOneAndUpdate(
       { id: req.params.id },
       updateData,
-      { new: true }
+      { new: true, runValidators: true }
     );
+
     if (!appointment) {
-      return res.status(404).json({ message: 'Appointment not found' });
+      return res.status(404).json({
+        message: 'Appointment not found'
+      });
     }
+
     res.json(appointment);
   } catch (err) {
-    res.status(500).json({ message: err.message });
+    res.status(500).json({
+      message: err.message
+    });
   }
 };
 
