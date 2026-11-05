@@ -317,28 +317,48 @@ export const INITIAL_DOCTORS = [
     availableDays: ['Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Saturday'],
     slots: ['09:30 AM', '11:00 AM', '02:30 PM', '04:15 PM', '05:45 PM'],
     registrationNumber: 'MCI-DEN-56129'
-  }
-
+  },
+  },
   {
-  id: 'doc-oncology-1',
-  name: 'Dr. Ananya Rao',
-  department: 'oncology',
-  specialization: 'Medical Oncology',
-  experience: 12,
-  qualification: 'MBBS, MD (Medical Oncology)',
-  available: true,
-  image: 'https://images.unsplash.com/photo-1559839734-2b71ea197ec2?auto=format&fit=crop&w=400&q=80'
-},
-{
-  id: 'doc-oncology-2',
-  name: 'Dr. Kiran Kumar',
-  department: 'oncology',
-  specialization: 'Surgical Oncology',
-  experience: 10,
-  qualification: 'MBBS, MS, MCh (Surgical Oncology)',
-  available: true,
-  image: 'https://images.unsplash.com/photo-1612349317150-e413f6a5b16d?auto=format&fit=crop&w=400&q=80'
-}
+    id: 'doc-oncology-1',
+    name: 'Dr. Ananya Rao',
+    email: 'ananya.rao@carepulse.com',
+    role: 'doctor',
+    qualifications: 'MBBS, MD (Medical Oncology)',
+    specialization: 'Medical Oncology',
+    departmentId: 'dept-oncology',
+    experienceYears: 12,
+    rating: 4.8,
+    reviewsCount: 96,
+    consultationFee: 80,
+    hospital: 'CarePulse Cancer Care Center',
+    location: 'Oncology Wing, 2nd Floor',
+    avatar: 'https://images.unsplash.com/photo-1559839734-2b71ea197ec2?auto=format&fit=crop&w=400&q=80',
+    about: 'Sample profile for a medical oncologist providing cancer consultations and treatment planning.',
+    availableDays: ['Monday', 'Tuesday', 'Wednesday', 'Friday'],
+    slots: ['09:00 AM', '10:30 AM', '12:00 PM', '02:00 PM', '04:00 PM'],
+    registrationNumber: 'DEMO-ONC-001'
+  },
+  {
+    id: 'doc-oncology-2',
+    name: 'Dr. Kiran Kumar',
+    email: 'kiran.kumar@carepulse.com',
+    role: 'doctor',
+    qualifications: 'MBBS, MS, MCh (Surgical Oncology)',
+    specialization: 'Surgical Oncology',
+    departmentId: 'dept-oncology',
+    experienceYears: 10,
+    rating: 4.7,
+    reviewsCount: 78,
+    consultationFee: 85,
+    hospital: 'CarePulse Cancer Care Center',
+    location: 'Oncology Wing, 3rd Floor',
+    avatar: 'https://images.unsplash.com/photo-1612349317150-e413f6a5b16d?auto=format&fit=crop&w=400&q=80',
+    about: 'Sample profile for a surgical oncologist providing surgical consultations and care planning.',
+    availableDays: ['Monday', 'Wednesday', 'Thursday', 'Saturday'],
+    slots: ['09:30 AM', '11:00 AM', '01:30 PM', '03:00 PM'],
+    registrationNumber: 'DEMO-ONC-002'
+  }
 ];
 
 export const INITIAL_PATIENTS = [
