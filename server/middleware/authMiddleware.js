@@ -1,8 +1,7 @@
 import jwt from 'jsonwebtoken';
 import { User } from '../models/User.js';
 
-const JWT_SECRET = process.env.JWT_SECRET || 'carepulse_super_secret_jwt_key_2026';
-
+const JWT_SECRET = process.env.JWT_SECRET;
 export const protect = async (req, res, next) => {
   let token;
 
