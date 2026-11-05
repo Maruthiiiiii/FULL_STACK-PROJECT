@@ -144,7 +144,7 @@ export const DEPARTMENTS = [
     icon: 'HeartPulse',
     description: 'Specialized care for cancer diagnosis, treatment, and ongoing patient support.',
     head: 'Oncology Department',
-    doctorCount: 0,
+    doctorCount: 2,
     services: [
       'Cancer screening and diagnosis',
       'Medical oncology consultations',
