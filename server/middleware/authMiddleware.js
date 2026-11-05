@@ -13,11 +13,6 @@ export const protect = async (req, res, next) => {
     return res.status(401).json({ message: 'Not authorized, no token provided' });
   }
 
-  // Handle demo token bypass for easy evaluation
-  if (token.startsWith('token_') || token.startsWith('demo_token')) {
-    req.user = { id: 'demo-user', role: token.includes('doc') ? 'doctor' : 'patient' };
-    return next();
-  }
 
   try {
     const decoded = jwt.verify(token, JWT_SECRET);
