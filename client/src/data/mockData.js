@@ -570,3 +570,21 @@ export const TESTIMONIALS = [
   }
 ];
 
+{
+    id: 'dept-oncology',
+    name: 'Cancer Care (Oncology)',
+    slug: 'oncology',
+    icon: 'HeartPulse',
+    description: 'Specialized care for cancer diagnosis, treatment, and ongoing patient support.',
+    head: 'Oncology Department',
+    doctorCount: 0,
+    services: [
+      'Cancer screening and diagnosis',
+      'Medical oncology consultations',
+      'Chemotherapy treatment planning',
+      'Radiation therapy coordination',
+      'Supportive and follow-up care'
+    ],
+    image: 'https://images.unsplash.com/photo-1579684385127-1ef15d508118?auto=format&fit=crop&w=600&q=80'
+  }
+
