@@ -318,6 +318,27 @@ export const INITIAL_DOCTORS = [
     slots: ['09:30 AM', '11:00 AM', '02:30 PM', '04:15 PM', '05:45 PM'],
     registrationNumber: 'MCI-DEN-56129'
   }
+
+  {
+  id: 'doc-oncology-1',
+  name: 'Dr. Ananya Rao',
+  department: 'oncology',
+  specialization: 'Medical Oncology',
+  experience: 12,
+  qualification: 'MBBS, MD (Medical Oncology)',
+  available: true,
+  image: 'https://images.unsplash.com/photo-1559839734-2b71ea197ec2?auto=format&fit=crop&w=400&q=80'
+},
+{
+  id: 'doc-oncology-2',
+  name: 'Dr. Kiran Kumar',
+  department: 'oncology',
+  specialization: 'Surgical Oncology',
+  experience: 10,
+  qualification: 'MBBS, MS, MCh (Surgical Oncology)',
+  available: true,
+  image: 'https://images.unsplash.com/photo-1612349317150-e413f6a5b16d?auto=format&fit=crop&w=400&q=80'
+}
 ];
 
 export const INITIAL_PATIENTS = [
