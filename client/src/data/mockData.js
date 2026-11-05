@@ -318,7 +318,6 @@ export const INITIAL_DOCTORS = [
     slots: ['09:30 AM', '11:00 AM', '02:30 PM', '04:15 PM', '05:45 PM'],
     registrationNumber: 'MCI-DEN-56129'
   },
-  },
   {
     id: 'doc-oncology-1',
     name: 'Dr. Ananya Rao',
