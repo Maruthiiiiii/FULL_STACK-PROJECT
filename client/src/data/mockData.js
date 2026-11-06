@@ -7,7 +7,7 @@ export const DEPARTMENTS = [
     icon: 'Stethoscope',
     description: 'Comprehensive preventive care, diagnosis, and treatment for adult illnesses and chronic disorders.',
     head: 'Dr. Robert Chen, MD',
-    doctorCount: 14,
+    doctorCount: 5,
     services: [
       'Chronic Disease Management (Diabetes, Hypertension)',
       'Acute Illness Diagnostics & Treatment',
@@ -24,7 +24,7 @@ export const DEPARTMENTS = [
     icon: 'HeartPulse',
     description: 'World-class cardiovascular care specializing in heart disease prevention, diagnostics, and intervention.',
     head: 'Dr. Sarah Johnson, MD, FACC',
-    doctorCount: 9,
+    doctorCount: 5,
     services: [
       'Comprehensive Cardiac Risk Assessment',
       'Echocardiography & Stress Testing',
@@ -41,7 +41,7 @@ export const DEPARTMENTS = [
     icon: 'Brain',
     description: 'Advanced neurological diagnostics and clinical care for brain, nerve, and spine disorders.',
     head: 'Dr. Vikram Malhotra, DM, FAAN',
-    doctorCount: 8,
+    doctorCount: 5,
     services: [
       'Stroke Treatment & Rapid Recovery',
       'Epilepsy & Seizure Disorder Clinic',
@@ -58,7 +58,7 @@ export const DEPARTMENTS = [
     icon: 'Bone',
     description: 'Expert musculoskeletal care, joint replacements, sports injury recovery, and spine surgery.',
     head: 'Dr. Michael Vance, MS, FRCS',
-    doctorCount: 11,
+    doctorCount: 5,
     services: [
       'Total Knee & Hip Replacement Surgeries',
       'Arthroscopic Sports Medicine & ACL Reconstruction',
@@ -75,7 +75,7 @@ export const DEPARTMENTS = [
     icon: 'Baby',
     description: 'Compassionate pediatric healthcare nurturing children from neonatal infancy through adolescence.',
     head: 'Dr. Anita Roy, MD (Pediatrics)',
-    doctorCount: 12,
+    doctorCount: 5,
     services: [
       'Newborn & Infant Wellness Exams',
       'Universal Vaccination & Immunization Schedules',
@@ -92,7 +92,7 @@ export const DEPARTMENTS = [
     icon: 'Sparkles',
     description: 'Comprehensive clinical dermatology, skin allergy diagnosis, acne therapy, and aesthetic procedures.',
     head: 'Dr. Elena Rostova, MD, DNB',
-    doctorCount: 7,
+    doctorCount: 5,
     services: [
       'Medical Dermatology & Psoriasis Therapy',
       'Acne & Acne Scar Resurfacing',
@@ -109,7 +109,7 @@ export const DEPARTMENTS = [
     icon: 'Heart',
     description: 'Holistic women\'s health services spanning reproductive wellness, maternity care, and fertility.',
     head: 'Dr. Priya Nambiar, MD, DGO',
-    doctorCount: 10,
+    doctorCount: 5,
     services: [
       'Comprehensive Prenatal & High-Risk Pregnancy Care',
       'PCOS & Menstrual Irregularity Management',
@@ -126,7 +126,7 @@ export const DEPARTMENTS = [
     icon: 'Smile',
     description: 'Modern dental clinic delivering preventive, restorative, periodontal, and cosmetic dentistry.',
     head: 'Dr. David Miller, DDS, MDS',
-    doctorCount: 6,
+    doctorCount: 5,
     services: [
       'Painless Root Canal Treatments (Micro-Endodontics)',
       'Dental Implants & Crown Restorations',
@@ -144,7 +144,7 @@ export const DEPARTMENTS = [
     icon: 'HeartPulse',
     description: 'Specialized care for cancer diagnosis, treatment, and ongoing patient support.',
     head: 'Oncology Department',
-    doctorCount: 2,
+    doctorCount: 5,
     services: [
       'Cancer screening and diagnosis',
       'Medical oncology consultations',
